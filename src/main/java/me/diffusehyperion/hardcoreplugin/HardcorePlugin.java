@@ -25,7 +25,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.time.ZoneId;
 import java.util.*;
 
 import static me.diffusehyperion.hardcoreplugin.DataManager.setPlayerMaxHP;
@@ -49,6 +48,7 @@ public final class HardcorePlugin extends JavaPlugin implements Listener {
         this.saveDefaultConfig();
         config = getConfig();
 
+        getServer().getPluginManager().registerEvents(new GoldenAppleListener(), this);
         getServer().getPluginManager().registerEvents(new DataManager(), this);
         getServer().getPluginManager().registerEvents(this, this);
 
