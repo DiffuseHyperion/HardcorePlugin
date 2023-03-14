@@ -77,7 +77,7 @@ public class BookOfNecromancy implements ReviveItem {
     @Override
     public int getEffectiveness() {
         // measures how much max hearts it will give to the target.
-        return 10;
+        return 15;
     }
 
     @Override

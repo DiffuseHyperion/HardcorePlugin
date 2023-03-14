@@ -35,28 +35,28 @@ public class HolyBible implements ReviveItem {
         lore.add("Keep this in your inventory to revive yourself when you die.");
         lore.add("");
         lore.add("A strengthened book of necromancy due to prayers.");
-        lore.add("Improves the effectiveness of the book.");
+        lore.add("No penalties when using; but it can be improved!");
         meta.setLore(lore);
         this.meta = meta;
         item.setItemMeta(meta);
 
         NamespacedKey key1 = new NamespacedKey(plugin, "holy_bible1");
         ShapedRecipe recipe1 = new ShapedRecipe(key1, item);
-        recipe1.shape("SGS",
+        recipe1.shape("PGP",
                       "GBG",
-                      "SGS");
+                      "PGP");
         recipe1.setCategory(CraftingBookCategory.MISC);
-        recipe1.setIngredient('S', Material.WITHER_SKELETON_SKULL);
+        recipe1.setIngredient('P', Material.BLAZE_POWDER);
         recipe1.setIngredient('G', Material.GHAST_TEAR);
         recipe1.setIngredient('B', new RecipeChoice.ExactChoice(reviveT1.getItem()));
 
         NamespacedKey key2 = new NamespacedKey(plugin, "holy_bible2");
         ShapedRecipe recipe2 = new ShapedRecipe(key2, item);
-        recipe2.shape("GSG",
-                      "SBS",
-                      "GSG");
+        recipe2.shape("GPG",
+                      "PBP",
+                      "GPG");
         recipe2.setCategory(CraftingBookCategory.MISC);
-        recipe2.setIngredient('S', Material.WITHER_SKELETON_SKULL);
+        recipe2.setIngredient('P', Material.BLAZE_POWDER);
         recipe2.setIngredient('G', Material.GHAST_TEAR);
         recipe2.setIngredient('B', new RecipeChoice.ExactChoice(reviveT1.getItem()));
 
@@ -76,7 +76,7 @@ public class HolyBible implements ReviveItem {
 
     @Override
     public int getEffectiveness() {
-        return 15;
+        return 20;
     }
 
     @Override

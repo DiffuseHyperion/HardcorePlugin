@@ -82,7 +82,7 @@ public class RevitalizedSoul implements ReviveItem {
     @Override
     public int getEffectiveness() {
         // measures how much max hearts it will give to the target.
-        return 25;
+        return 30;
     }
 
     @Override

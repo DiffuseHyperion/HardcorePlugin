@@ -30,35 +30,35 @@ public class EnergisedLifeforce implements ReviveItem {
         assert meta != null;
         meta.addEnchant(Enchantment.DURABILITY, 1, true);
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-        meta.setDisplayName("Energised Lifeforce");
+        meta.setDisplayName("Energized Lifeforce");
         List<String> lore = new ArrayList<>();
         lore.add("Right click to choose who to revive.");
         lore.add("Keep this in your inventory to revive yourself when you die.");
         lore.add("");
-        lore.add("Collects and purifies the souls in the wither.");
-        lore.add("No penalties to the target... but there is room for improvement!");
+        lore.add("A more potent source of power.");
+        lore.add("Gives the target slightly more HP when used!");
         meta.setLore(lore);
         this.meta = meta;
         item.setItemMeta(meta);
 
-        NamespacedKey key1 = new NamespacedKey(plugin, "energised_lifeforce1");
+        NamespacedKey key1 = new NamespacedKey(plugin, "energized_lifeforce1");
         ShapedRecipe recipe1 = new ShapedRecipe(key1, item);
         recipe1.shape("SNS",
                       "NBN",
                       "SNS");
         recipe1.setCategory(CraftingBookCategory.MISC);
-        recipe1.setIngredient('S', Material.NETHER_STAR);
-        recipe1.setIngredient('N', Material.NETHERITE_INGOT);
+        recipe1.setIngredient('S', Material.WITHER_SKELETON_SKULL);
+        recipe1.setIngredient('N', Material.NETHERITE_SCRAP);
         recipe1.setIngredient('B', new RecipeChoice.ExactChoice(reviveT2.getItem()));
 
-        NamespacedKey key2 = new NamespacedKey(plugin, "energised_lifeforce2");
+        NamespacedKey key2 = new NamespacedKey(plugin, "energized_lifeforce2");
         ShapedRecipe recipe2 = new ShapedRecipe(key2, item);
         recipe2.shape("NSN",
                       "SBS",
                       "NSN");
         recipe2.setCategory(CraftingBookCategory.MISC);
-        recipe2.setIngredient('S', Material.NETHER_STAR);
-        recipe2.setIngredient('N', Material.NETHERITE_INGOT);
+        recipe2.setIngredient('S', Material.WITHER_SKELETON_SKULL);
+        recipe2.setIngredient('N', Material.NETHERITE_SCRAP);
         recipe2.setIngredient('B', new RecipeChoice.ExactChoice(reviveT2.getItem()));
 
         Bukkit.addRecipe(recipe1);
@@ -74,7 +74,7 @@ public class EnergisedLifeforce implements ReviveItem {
     }
 
     public int getEffectiveness() {
-        return 20;
+        return 25;
     }
 
     @Override
