@@ -1,0 +1,6 @@
+name: HardcorePlugin
+version: '${project.version}'
+main: me.diffusehyperion.hardcoreplugin.HardcorePlugin
+api-version: 1.19
+softdepend:
+  - DiscordSRVstop

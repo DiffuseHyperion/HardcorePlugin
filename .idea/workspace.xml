@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0d0a604-492a-4819-85d1-1ab1c5ec4052" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Masrq7aKSLBkCQjCC9D4XeBHSb" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/diffusehyperion/IdeaProjects/GLOBAL-MC_Test_Servers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.diffusehyperion.hardcoreplugin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.diffusehyperion.hardcoreplugin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test Server" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="python build.py 1.19.3 HardcorePlugin" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../GLOBAL-MC_Test_Servers" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0d0a604-492a-4819-85d1-1ab1c5ec4052" name="Changes" comment="" />
+      <created>1678017230313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678017230313</updated>
+      <workItem from="1678017231374" duration="3871000" />
+      <workItem from="1678091391876" duration="26000" />
+      <workItem from="1678109452647" duration="263000" />
+      <workItem from="1678176082270" duration="2872000" />
+      <workItem from="1678183886488" duration="69000" />
+      <workItem from="1678195200452" duration="603000" />
+      <workItem from="1678277908949" duration="16000" />
+      <workItem from="1678456147156" duration="84000" />
+      <workItem from="1678502129356" duration="969000" />
+      <workItem from="1678526737675" duration="1349000" />
+      <workItem from="1678531808748" duration="603000" />
+      <workItem from="1678535612473" duration="38000" />
+      <workItem from="1678594392050" duration="6269000" />
+      <workItem from="1678602508112" duration="111000" />
+      <workItem from="1678612210427" duration="10757000" />
+      <workItem from="1678698764137" duration="6359000" />
+      <workItem from="1678756715667" duration="4626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
